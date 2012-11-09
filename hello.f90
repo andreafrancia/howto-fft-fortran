@@ -34,8 +34,8 @@ end program hello
 
 subroutine calc_fft(N,in,out)
     integer N
-    real, dimension (N) :: in
-    real, dimension (N) :: out
+    double complex, dimension (N) :: in
+    double complex, dimension (N) :: out
     integer*8 plan
     integer i
 
